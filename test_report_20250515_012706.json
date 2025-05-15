@@ -1,0 +1,74 @@
+[
+  {
+    "test_name": "Text File - Project Date",
+    "question": "What is the report date mentioned in the attached sample.txt regarding Project Griffin?",
+    "expected": "March 1, 2024",
+    "actual": "15",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_name": "CSV - Total Sales",
+    "question": "What are the total sales from sample.csv? Format as number.",
+    "expected": "2000",
+    "actual": "3",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_name": "Excel - Total Sales",
+    "question": "What are the total sales from sample.xlsx? Format as number.",
+    "expected": "2000",
+    "actual": "3",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_name": "CSV - Average Temperature",
+    "question": "Calculate the average temperature from the attached weather_data.csv. Format as number with one decimal.",
+    "expected": "74.5",
+    "actual": "74.5",
+    "success": true,
+    "error": null
+  },
+  {
+    "test_name": "Text File - Third Ingredient",
+    "question": "What is the third ingredient listed in the attached recipe.txt?",
+    "expected": "Butter",
+    "actual": "1",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_name": "Complex Reasoning - Fruits",
+    "question": "From the grocery list in grocery.txt, which items are fruits? List alphabetically.",
+    "expected": "Apples, Bananas, Oranges, Strawberries",
+    "actual": "Shopping List:\n- Apples\n- Bread\n- Oranges\n- Milk\n- Bananas\n- Cheese\n- Strawberries\n- Yogurt",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_name": "Web - Example.com",
+    "question": "According to example.com, what is the main heading?",
+    "expected": "Example Domain",
+    "actual": "Example Domain\nThis domain is for use in illustrative examples in documents",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_name": "Search - Capital of Mongolia",
+    "question": "Search the web for the capital city of Mongolia",
+    "expected": "Ulaanbaatar",
+    "actual": "",
+    "success": false,
+    "error": null
+  },
+  {
+    "test_name": "YouTube - Video Title",
+    "question": "What is the title of the YouTube video at https://www.youtube.com/watch?v=jNQXAC9IVRw?",
+    "expected": "Me at the zoo",
+    "actual": "2025",
+    "success": false,
+    "error": null
+  }
+]
